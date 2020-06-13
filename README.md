@@ -1,3 +1,5 @@
+[![Pulls](https://img.shields.io/docker/pulls/bhanukauom/firebase.svg?style=flat-square)](https://hub.docker.com/r/bhanukauom/firebase/)
+
 ## Firebase CLI for CI/CD
 The `latest` tag is currently:
 
