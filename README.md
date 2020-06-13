@@ -1,4 +1,4 @@
-## Firebase CLI pre-installed for CI/CD
+## Firebase CLI for CI/CD
 The `latest` tag is currently:
 
 - Node: 12.x
