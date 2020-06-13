@@ -15,6 +15,7 @@ RUN \
   sh -c "echo 'deb https://dl.yarnpkg.com/debian/ stable main' >> /etc/apt/sources.list"  && \
   apt-get update && \
   apt --no-install-recommends install yarn && \
-  cp /bin/python3 /bin/python && \
   apt-get install python3-pip && \
+  cp /bin/python3 /bin/python && \
+  cp bin/pip3 bin/pip && \
   npm install -g firebase-tools
