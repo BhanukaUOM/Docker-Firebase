@@ -3,6 +3,7 @@ The `latest` tag is currently:
 
 - Node: 12.x
 - npm: 6.x
+- firebase-tools: latest
 - yarn: stable
 - Python: latest
 - pip: latest
