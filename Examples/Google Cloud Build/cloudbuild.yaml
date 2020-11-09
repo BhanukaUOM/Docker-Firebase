@@ -1,0 +1,16 @@
+steps:
+  - name: bhanukauom/firebase:latest
+    entrypoint: /bin/sh
+    args:
+      - '-c'
+      - |
+        echo 'CI Started' && \
+        cd functions && \
+        npm config set production true && 
+        npm install && \
+        npm run test && \
+        echo 'CI Success' && \
+        echo 'CD Started' && \
+        firebase use dev && \
+        npm run deploy && \
+        echo 'CD Success'
