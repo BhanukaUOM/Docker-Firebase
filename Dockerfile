@@ -18,4 +18,4 @@ RUN \
   apt-get install -y python3-pip && \
   cp /bin/python3 /bin/python && \
   cp bin/pip3 bin/pip && \
-  npm install -g firebase-tools
+  npm install -g firebase-tools@9.16.0
